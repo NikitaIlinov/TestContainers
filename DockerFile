@@ -1,0 +1,5 @@
+FROM openjdk:17-jdk-alpine
+EXPOSE 8080
+ADD target/ServiceAuthorizationApplication-0.0.1-SNAPSHOT.jar dockerapp.jar
+CMD ["java", "-jar", "dockerapp.jar"]
+

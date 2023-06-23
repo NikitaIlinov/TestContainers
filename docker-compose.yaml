@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  dockerapp:
+    image: f4940d7a7f42
+    ports:
+      - '8080'
